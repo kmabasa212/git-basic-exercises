@@ -1,0 +1,97 @@
+    1  -version git
+    2  git -version
+    3  code
+    4  code
+    5  node -v
+    6  git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/my-first-static-web-app.git
+    7  git clone https://github.com/<kmabasa212>/my-first-static-web-app.git
+    8  code
+    9  code
+   10  git config --global user.name "Khomisani Gasa"
+   11  git config --global user.email kmabasa212@gmail.com
+   12  git config --global init.default branch main
+   13  git config -h
+   14  git help config
+   15  clear
+   16  cd [200~C:\Users\kmaba\Desktop\introToGit~
+   17  cd C:\Users\kmaba\Desktop\introToGit
+   18  cd C:\Users\kmaba\Desktop\introToGit
+   19  cd /c/Users/kmaba/Desktop/introToGit
+   20  git init
+   21  git status
+   22  git add index.html
+   23  git status
+   24  git rm --cached index.html
+   25  git status
+   26  git status
+   27  git status
+   28  clear
+   29  git add --all
+   30  git status
+   31  git commit -m "first commit"
+   32  git status
+   33  git diff
+   34  git add styles.css
+   35  git status
+   36  git restore --staged styles.css
+   37  git commit -a -m "updated text"
+   38  git log
+   39  cd [200~C:\Users/kmaba/Desktop/git-basic-exercises
+   40  cd C:\Users\kmaba\Desktop\git-basic-exercises
+   41  cd c/Users/kmaba/Desktop/git-basic-exercises
+   42  cd /c/Users/kmaba/Desktop/git-basic-exercises
+   43  ls -a
+   44  git init
+   45  ls -a
+   46  git status
+   47  touch README.md
+   48  ls -a
+   49  git status
+   50  git log
+   51  git add README,md
+   52  git add README.md
+   53  git status
+   54  git rm --cached README.md
+   55  git status
+   56  git add README.md
+   57  git commit -m "initial commit"
+   58  git log
+   59  q
+   60  nano README.md
+   61  cat README.md
+   62  git status
+   63  git add README.md
+   64  git status
+   65  git commit -m "second commit"
+   66  nano README.md
+   67  cat README.md
+   68  git status
+   69  git commit -a -m "third commit"
+   70  git log
+   71  git checkout  MINGW64 ~/Desktop/git-basic-exercises (master)
+   72  $ git checkout
+   73  git checkout 985db8020bde7e70eefeb231f0782cd7e8cbcdff
+   74  cat README.md
+   75  git checkout main
+   76  git checkout master
+   77  cat README.md
+   78  git branch
+   79  git branch milkshake-flavours
+   80  git branch
+   81  git switch branch milkshake-flavours
+   82  git switch milkshake-flavours
+   83  git branch 
+   84  nano milkshakes.md
+   85  git status
+   86  git commit -a -m "added initial flavours"
+   87  git status
+   88  git add milkshakes.md
+   89  git commit -m "added initial flavours"
+   90  git log
+   91  git checkout master
+   92  git log
+   93  git branch history
+   94  git branch
+   95  git checkout history
+   96  git log
+   97  history > history.txt
